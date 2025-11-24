@@ -1,0 +1,50 @@
+.BurgerBar{
+  position: fixed;
+  width: 20.1rem;
+  height: 99.9vh;
+  background-color: #2F3136;
+}
+
+.burgerIcon{
+  margin-left: 7.5%;
+  margin-top: 1.1rem;
+  width: 30px;
+  height: 30px;
+  border: solid 1px black;
+}
+
+.menuContainer{
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.menu{
+  background-color: #393C43;
+  width: 100%;
+  height: 3.1rem;
+  margin-bottom: 0.9rem;
+  display: flex;
+}
+
+.menuElements{
+  display: flex;
+  align-items: center;
+}
+
+.menuIcon{
+  width: 18px;
+  height: 18px;
+  border: solid 1px black;
+  margin-left: 0.5rem;
+}
+
+.menuTitle{
+  margin-left: 0.6rem;
+  color: white;
+  font-size: 1.1rem;
+  height: auto;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
