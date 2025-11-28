@@ -18,6 +18,7 @@
   height: auto;
   margin: 0 auto;
   margin-top: 1rem;
+  position: relative;
 }
 
 .menu{
@@ -26,6 +27,11 @@
   height: 3.1rem;
   margin-bottom: 0.9rem;
   display: flex;
+  cursor: pointer;
+}
+
+.menu:hover{
+  background-color: #5865F2;
 }
 
 .menuElements{
@@ -47,4 +53,65 @@
   height: auto;
   margin-bottom: 0.2rem;
   font-weight: 500;
+}
+
+.profileContainer{
+  width: 75%;
+  height: 25vh;
+  background-color: #202225;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 5%;
+}
+
+.profileName{
+  color: white;
+  font-size: 3.7vh;
+  font-weight: 500;
+}
+
+.profileNameContainer{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.profileIcon{
+  color: white;
+  margin-right: 3.5px;
+}
+
+.profileText{
+  color: #B9BBBE;
+  height: auto;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.profileNameContainer2{
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.profileName2{
+ font-size: 3vh;
+ font-weight: 500;
+}
+
+.profileNameTag{
+  font-size: 3vh;
+  color: #B9BBBE;
+  font-weight: 500;
+}
+
+.profileIcon2{
+  color: white;
+  margin-right: 3.5px;
+  width: 6vh;
+  height: 6vh;
+  margin-top: 2vh;
 }

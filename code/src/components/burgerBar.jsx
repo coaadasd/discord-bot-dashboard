@@ -1,4 +1,5 @@
 import styles from '../styles/burgerBar.module.css';
+import { FaDiscord } from "react-icons/fa";
 
 const BurgerBar = () => {
   return(
@@ -44,10 +45,16 @@ const BurgerBar = () => {
           </div>
         </div>
         <div className={styles.profileContainer}>
-          <div className={styles}></div>
-          <div className={styles}></div>
-          <div className={styles}></div>
-          <div className={styles}></div>
+          <div className={styles.profileName}>Muatex</div>
+          <div className={styles.profileNameContainer}>
+            <FaDiscord className={styles.profileIcon}/>
+            <div className={styles.profileText}>Muatex#0001</div>
+          </div>
+          <div className={styles.profileNameContainer2}>
+            <div className={styles.profileName2}>Muatex</div>
+            <div className={styles.profileNameTag}>#0001</div>
+          </div>
+          <FaDiscord className={styles.profileIcon2}/>
         </div>
       </div>
     </>
